@@ -1,0 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main-header {
+    margin-left: 25px;
+}
+.main-header h2{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: -2px;
+    word-spacing: 5px;
+}
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;
+    margin-left: 20px;
+}
+.left-side {
+    width: 50%;
+}
+.main-img img {
+    width: 400px;
+    margin-left: 50px;
+}
+.heading {
+    width: 380px;
+    height: 120px;
+}
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    word-spacing: 8px;
+}
+.div-text {
+    width: 240px;
+    height: 110px;
+}
+.div-text p {
+    color: grey;
+    font-weight: 200;
+    word-spacing: 5px;
+}
+.div-btn button {
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+    text-transform: uppercase;
+    height: 50px;
+    width: 170px;
+    font-size: small;
+}
